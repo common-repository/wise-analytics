@@ -1,0 +1,16 @@
+.wcAdminFl { float: left; }
+.wcAdminFr { float: right; }
+.wcAdminCb { clear:both; }
+.wcAdminMenu, .wcAdminMenu * { -moz-box-sizing: border-box; box-sizing: border-box; }
+.wcAdminTabContainer { overflow:hidden; }
+.wcAdminMenu *:focus { outline: none; box-shadow: none; }
+.wcAdminMenu { width: 200px; margin-right: 10px; border: 1px solid #e5e5e5; -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04); box-shadow: 0 1px 1px rgba(0,0,0,.04); }
+.wcAdminMenu ul { margin: 0px; list-style: none; padding: 0px; }
+.wcAdminMenu ul li { border-bottom: 1px solid #dfdfdf; margin: 0; display: list-item; text-align: -webkit-match-parent; }
+.wcAdminMenu ul li a { background-color: #fff; display: inline-block; padding: 10px 20px; width: 100%; font-size: 1.1em; text-decoration: none; color: #000; }
+.wcAdminMenu ul li a:hover { background-color: #fafafa; color: #000; outline: 0;}
+.wcAdminMenu ul li a:visited { color: #000; }
+.wcAdminMenu ul li a.wcAdminMenuActive { font-weight: bold; background-color: #fafafa; }
+.wcUserSearchLayer { border: 1px solid #ccd0d4; box-shadow: 0 1px 1px rgba(0,0,0,.04); background: #fff; position: absolute; max-width: 300px; max-height: 200px; overflow-y: auto; z-index: 2;}
+.wcUserSearchLayer a { display: block; margin: 6px; text-decoration: none; }
+.wcCondensedTable th, .wcCondensedTable td { padding: 4px; width: auto; }

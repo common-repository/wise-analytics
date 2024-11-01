@@ -1,0 +1,6 @@
+@mixin reset {
+  .card { max-width: unset; }
+  dd,li { margin-bottom: auto; }
+
+  input[type=checkbox]:checked::before { content: none; }
+}

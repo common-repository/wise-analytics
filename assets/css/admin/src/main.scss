@@ -1,0 +1,39 @@
+@import "reset.scss";
+@import "bootstrap-mods";
+
+.toplevel_page_wise-analytics #wpcontent {
+  background-color: #f9fafb;
+}
+
+div.waContainer {
+  @include reset;
+  @import "node_modules/bootstrap/dist/css/bootstrap";
+  @import "node_modules/bootstrap-icons/font/bootstrap-icons";
+  @import "node_modules/react-datepicker/dist/react-datepicker";
+  @include bootstrap-mods;
+
+  margin-top: 2em;
+
+  // colors:
+  --wa-color-primary: #31525b;
+  --wa-color-primary-light: #b3dee5;
+  --wa-color-secondary: #ffa101;
+  --wa-color-secondary-light: #fae6b1;
+
+  // text colors:
+  .wa-text-color-primary { color: var(--wa-color-primary); }
+  .wa-text-color-primary-light { color: var(--wa-color-primary-light); }
+  .wa-text-color-secondary { color: var(--wa-color-secondary); }
+  .wa-text-color-secondary-light { color: var(--wa-color-secondary-light); }
+
+  .wa-bg-color-primary { background-color: var(--wa-color-primary); }
+  .wa-bg-color-primary-light { background-color: var(--wa-color-primary-light); }
+  .wa-bg-color-secondary { background-color: var(--wa-color-secondary); }
+  .wa-bg-color-secondary-light { background-color: var(--wa-color-secondary-light); }
+
+  .main-menu {
+    a { text-decoration: none; padding: 6px; outline: none; color: inherit; border-radius: 0.25rem; }
+    a:focus, a:active { outline: none; box-shadow: none; }
+    a.top-item { font-size: 1.2em; font-weight: 500; }
+  }
+}
